@@ -1,0 +1,101 @@
+{
+  "English": {
+    "about": "From an early age, I’ve always been deeply interested in computer. When I was a child, I was absolutely attracted by computer games, but later it was the feeling of wanting to know just how computers worked, why they worked and what else they could do. Encumbered by the GaoKao (AKA National College Entrance Examination), I did not meet the programming until I entered into colleges. However, it does not prevent me from being fascinated with programming. During the university, I began to like the feeling of solving problems in the real world by coding, as well as the sense of achievement when I saw others’ acknowledgments under my technical blogs. The coding, eventually, became a part of my life. Therefore, in the future, I wish to pursue a deeper understanding of programming and the broader knowledge of computer science.",
+    "email": "duskcloudxu@gmail.com",
+    "github": "https://github.com/duskcloudxu",
+    "blog": "https://duskcloudxu.github.io/",
+    "education": {
+      "fullName": "Hangzhou Normal University",
+      "time": "2015-2018",
+      "major":"Software Engineering",
+      "degree":"Bachelor of Engineering",
+      "GPA":"3.5/4"
+    },
+    "honours": [
+      "The First Prize, The Tenth Programming Design Contest, by HZNU 12.2016",
+      "The First Prize, 2017 Group Programming Ladder Tournament (GPLT), by AFCEC 04.2017",
+      "The Second Prize (National Level), The Ninth China Students Service Outsourcing Innovation & Entrepreneurship Competition, by Ministry of Education, 06.2018"
+    ],
+    "projects":[
+      {
+        "name":"SimpleNote",
+        "url":"https://github.com/duskcloudxu/simpleNote",
+        "des":"My startup react web application, an online note editor"
+      },
+      {
+        "name":"Reversi",
+        "url":"https://github.com/duskcloudxu/Reversi",
+        "des":"Based on NodeJS and SocketIO, an real time Reversi game"
+      },
+      {
+        "name":"Lv Dou mobile application",
+        "url":"https://github.com/duskcloudxu/DEMO_for_service_outsourcing",
+        "des":"It is a mobile demo application for the presentation of Service Outsourcing Innovation & Entrepreneurship Competition"
+      },
+      {
+        "name":"Association",
+        "url":"https://github.com/dreamhuan/association",
+        "des":"Course Project of Web programming, an online association management system"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "44%"
+      },
+      {
+        "name": "C++",
+        "level": "50%"
+      },
+      {
+        "name": "javaScript",
+        "level": "70%"
+      },
+      {
+        "name": "React",
+        "level": "50%"
+      },
+      {
+        "name": "Less/CSS",
+        "level": "70%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "60%"
+      },
+      {
+        "name": "Linux",
+        "level": "44%"
+      }
+    ]
+  },
+  "Chinese": {
+    "about": "this is about",
+    "email": "duskcloudxu@gmail.com",
+    "github": "https://github.com/duskcloudxu",
+    "blog": "https://duskcloudxu.github.io/"
+  },
+  "imgList": [
+    {
+      "name": "Red braised pork",
+      "description": "I love cooking, cooking let me feel relax and eating delicious food is an indispensable apart of my life",
+      "url":"https://i.loli.net/2019/02/01/5c534dda078ac.jpg"
+    },
+    {
+      "name": "HZNU",
+      "description": "Actually I am not quite like my undergraduate university, for its location and some boring or even malicious professors, but still there are many nice guys, and we spent a great period of time together",
+      "url":"https://i.loli.net/2019/02/01/5c534ddadcf7a.jpg"
+    },
+    {
+      "name": "Metro",
+      "description": "I always go to different places to travel or attend competitions, I guess it is the most interesting part of the 4 year in HZNU",
+      "url":"https://i.loli.net/2019/02/01/5c534ddb0bad8.jpg"
+    },
+    {
+      "name": "Wetland",
+      "description": "nature view.",
+      "url":"https://i.loli.net/2019/02/01/5c534ddab470a.jpg"
+    }
+
+  ]
+}

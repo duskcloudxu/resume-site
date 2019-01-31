@@ -1,0 +1,1 @@
+export const host="http://118.126.64.186:5002/";

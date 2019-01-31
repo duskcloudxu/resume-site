@@ -1,0 +1,32 @@
+{
+  "English": {
+    "about": "From an early age, I’ve always been deeply interested in computer. When I was a child, I was absolutely attracted by computer games, but later it was the feeling of wanting to know just how computers worked, why they worked and what else they could do. Encumbered by the GaoKao (AKA National College Entrance Examination), I did not meet the programming until I entered into colleges. However, it does not prevent me from being fascinated with programming. During the university, I began to like the feeling of solving problems in the real world by coding, as well as the sense of achievement when I saw others’ acknowledgments under my technical blogs. The coding, eventually, became a part of my life. Therefore, in the future, I wish to pursue a deeper understanding of programming and the broader knowledge of computer science.",
+    "email": "duskcloudxu@gmail.com",
+    "github": "https://github.com/duskcloudxu",
+    "blog": "https://duskcloudxu.github.io/"
+  },
+  "Chinese": {
+    "about": "this is about",
+    "email": "duskcloudxu@gmail.com",
+    "github": "https://github.com/duskcloudxu",
+    "blog": "https://duskcloudxu.github.io/"
+  },
+  "imgList": [
+    {
+      "name": "Red braised pork",
+      "description": "I love cooking, cooking let me feel relax and eating delicious food is an indispensable apart of my life"
+    },
+    {
+      "name": "HZNU",
+      "description": "Actually I am not quite like my undergraduate university, for its location and some boring or even malicious professors, but still there are many nice guys, and we spent a great period of time together"
+    },
+    {
+      "name": "Metro",
+      "description": "I always go to different places to travel or attend competitions, I guess it is the most interesting part of the 4 year in HZNU"
+    },
+    {
+      "name":"Wetland",
+      "description":"nature view."
+    }
+  ]
+}
