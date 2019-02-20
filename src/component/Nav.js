@@ -15,11 +15,11 @@ let mapStateToProps = state => ({
 class Nav extends Component {
     constructor(props) {
         super(props);
-        this.state={isSideBarOn:false}
+        this.state = {isSideBarOn: false}
     }
 
-    toggleSideBar=()=>{
-        this.setState({isSideBarOn:!this.state.isSideBarOn});
+    toggleSideBar = () => {
+        this.setState({isSideBarOn: !this.state.isSideBarOn});
     }
 
     render() {
@@ -31,19 +31,25 @@ class Nav extends Component {
                     <div className="sideBar Btn" onClick={this.toggleSideBar}>
                         <img src={sideBar} alt=""/>
                     </div>
-                    <div className={"list "+(this.state.isSideBarOn?"":"hidden")}>
+                    <div className={"list " + (this.state.isSideBarOn ? "" : "hidden")}>
                         <Link to={"/"}
                               className={this.props.location === "/" ? "selected" : ""}
                               onClick={this.toggleSideBar}
-                        >ABOUT</Link>
+                        >ABOUT
+                        </Link>
+                        <div className={"divider"}/>
+
                         <Link to={"/photography"}
                               className={this.props.location === "/photography" ? "selected" : ""}
                               onClick={this.toggleSideBar}
                         >PHOTOGRAPHY</Link>
+                        <div className={"divider"}/>
+
                         <Link to={"/resume"}
                               className={this.props.location === "/resume" ? "selected" : ""}
                               onClick={this.toggleSideBar}
                         >RESUME</Link>
+
                     </div>
                 </div>
             )

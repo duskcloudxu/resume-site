@@ -103,9 +103,13 @@ body::-webkit-scrollbar {
             a {
                 color: #fff;
                 text-decoration: none;
-                border-bottom: solid white 1px;
                 margin-top: 10px;
                 margin-bottom: 10px;
+            }
+            .divider{
+                width: 90%;
+                height: 1px;
+                background: white;
             }
             animation: fadein 0.3s;
             //visibility: hidden;
@@ -412,6 +416,7 @@ body::-webkit-scrollbar {
         position: relative;
         img {
             width: 100%;
+            animation: fidein 0.5s;
         }
         .description {
             width: 100%;
@@ -426,11 +431,28 @@ body::-webkit-scrollbar {
             display: flex;
             align-items: center;
             padding-left: 20px;
-            bottom: 25px;
+            bottom: 3px;
         }
         .description-show {
             visibility: visible;
             animation: fadein 0.5s;
+        }
+        .left{
+            position: absolute;
+            width: 5vh;
+            top: 50%;
+            opacity: 50%;
+        }
+        .right{
+            position: absolute;
+            width: 5vh;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+            top:50%;
+            right: 0px;
         }
 
     }
@@ -467,6 +489,7 @@ body::-webkit-scrollbar {
             display: flex;
             align-items: center;
         }
+
 
     }
 

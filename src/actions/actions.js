@@ -12,6 +12,7 @@ let showImg=(index)=>{
    }
 }
 
+
 let closeSlider=()=>{
    return{
        type:"closeSlider"
